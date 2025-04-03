@@ -1,6 +1,6 @@
 Device Monitoring System \
 Сервис для сбора и анализа данных с устройств. \
-  Возможности: \
+  Возможности: 
 ```
 Сбор статистики устройств (координаты/измерения x, y, z)
 Хранение данных с временными метками и идентификаторами устройств
@@ -9,7 +9,7 @@ Device Monitoring System \
 Дополнительное управление пользователями
 Дополнительная аналитика по идентификатору пользователя
 ```
-Tech Stack \
+Tech Stack 
 ```
 FastAPI: Web framework
 SQLAlchemy: ORM for database operations
@@ -20,25 +20,25 @@ Docker & Docker Compose: Containerization
 Locust: Load testing (optional)
 ```
 Начало \
---Необходим Docker и Docker Compose \
+--Необходим Docker и Docker Compose 
 
-Копируйте репозиторий: \
+Копируйте репозиторий: 
 ```
 git clone <repository-url>
 cd device-monitoring-system
 ```
-Запустите сервисы: \
+Запустите сервисы: 
 ```
 Copydocker-compose up -d
 ```
-Access the API documentation: \
+Access the API documentation: 
 ```
 http://localhost:8000/docs
 ```
 
-API Endpoints \
+API Endpoints 
 
-Core Endpoints \
+Core Endpoints 
 ```
 POST /api/devices/{device_id}/data
 
@@ -72,7 +72,7 @@ start_time: Start of time period (optional)
 end_time: End of time period (optional)
 aggregate: Whether to aggregate results (default: true)
 ```
-Optional Endpoints \
+Optional Endpoints 
 ```
 POST /api/users/
 
@@ -97,7 +97,7 @@ Response: Analytics aggregated or per device
 
 
 Нагрузочное тестирование \
-Чтобы запустить понадобится Locust: \
+Чтобы запустить понадобится Locust: 
 ```
 Run the Locust test:
 Copycd load_tests
