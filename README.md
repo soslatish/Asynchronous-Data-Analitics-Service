@@ -9,7 +9,7 @@ Device Monitoring System \
 Дополнительное управление пользователями
 Дополнительная аналитика по идентификатору пользователя
 ```
-Tech Stack 
+Стек 
 ```
 FastAPI: Web framework
 SQLAlchemy: ORM for database operations
@@ -31,7 +31,7 @@ cd device-monitoring-system
 ```
 Copydocker-compose up -d
 ```
-Access the API documentation: 
+API: 
 ```
 http://localhost:8000/docs
 ```
