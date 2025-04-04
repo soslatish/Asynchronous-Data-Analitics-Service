@@ -25,7 +25,7 @@ Locust: Load testing
 Копируйте репозиторий: 
 ```
 git clone <repository-url>
-cd device-monitoring-system
+
 ```
 Запустите сервисы: 
 ```
