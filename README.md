@@ -13,11 +13,11 @@ Device Monitoring System \
 ```
 FastAPI: Web framework
 SQLAlchemy: ORM for database operations
-PostgreSQL: Database (configurable)
-Celery: Asynchronous task processing (optional)
-Redis: Message broker for Celery (optional)
+PostgreSQL: Database 
+Celery: Asynchronous task processing 
+Redis: Message broker for Celery 
 Docker & Docker Compose: Containerization
-Locust: Load testing (optional)
+Locust: Load testing 
 ```
 Начало \
 --Необходим Docker и Docker Compose 
